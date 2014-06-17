@@ -81,7 +81,9 @@ Den ska ta emot en planets radie och returnera volymen
 
 Formeln för att räkna ut volymen på en sfär givet sfärens radie `r` är
 
-![](http://bit.ly/UHB6Hu)
+    4 * π * r³
+    ----------
+        3
 
 #### calculate_weight ####
 
@@ -90,10 +92,12 @@ Tar emot sondens massa och en planethash/dict, och returnerar en sträng med nam
 
 För att räkna ut vikten på sonden används följande formel:
 
-givet gravitationskonstanten `G = 6.67e-11`
+givet gravitationskonstanten G = 6.67e-11
 
+                 massa på objekt 1 (sonden) * massa på objekt 2 (planeten)
+    vikt = G * -------------------------------------------------------------
+               (avståndet mellan objekt 1 och objekt 2 (planetens radie))²
 
-![](http://bit.ly/UHEjXA)
 
 Det kan vara bra att skapa några egna funktioner för att dela upp calculate_weight i mindre delar.
 
