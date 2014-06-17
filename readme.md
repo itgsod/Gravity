@@ -79,6 +79,12 @@ som innehåller planetens namn, radie, och densitet.
 Den här funktionen saknar tester.
 Den ska ta emot en planets radie och returnera volymen
 
+Formeln för att räkna ut volymen på en sfär givet sfärens radie `r` är
+
+    4 * π * r³
+    ----------
+        3
+
 #### calculate_weight ####
 
 Tar emot sondens massa och en planethash/dict, och returnerar en sträng med namnet på planeten och sondens vikt på den planeten.
