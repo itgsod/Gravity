@@ -96,7 +96,7 @@ givet gravitationskonstanten G = 6.67e-11
 
                  massa på objekt 1 (sonden) * massa på objekt 2 (planeten)
     vikt = G * -------------------------------------------------------------
-               (avståndet mellan objekt 1 och objekt 2 (planetens radie)) ^2
+               (avståndet mellan objekt 1 och objekt 2 (planetens radie))²
 
 
 Det kan vara bra att skapa några egna funktioner för att dela upp calculate_weight i mindre delar.
